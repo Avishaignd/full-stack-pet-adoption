@@ -71,28 +71,6 @@ app.post("/AddPet", upload.single("image"), (req, res) => {
     res.send('Pet Added')
 });
 
-app.put("/EditPet/:id", upload.single("image"), async (req, res) => {
-  // const petId = req.params.id
-  // const path = req.file.path
-  // const uniqueFilename = new Date().toISOString()
-  // cloudinary.uploader.upload(
-  //   path,
-  //   { public_id: `pet_adoption/${uniqueFilename}`},
-  //   async function(err, image) {
-  //     if (err) return res.send(err)
-  //     console.log('file uploaded to Cloudinary')
-  //     fs.unlinkSync(path)
-  //     const petToUpdate = await Pet.findOne({ _id : petId.slice(1) })
-  //       // const pet = new Pet(newPet)
-  //       // pet.image = image.secure_url
-  //       // pet.save((function (err, pet) {
-  //       //     if (err) return console.error(err);
-  //       //     console.log(pet);
-  //       //   }))
-  //     }
-  //   )
-  // res.send(pet)
-});
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
