@@ -1,0 +1,52 @@
+{"users": [
+    {
+      "firstName": "John",
+      "lastName": "Kennedy",
+      "email": "JFK@gmail.com",
+      "password": 123456,
+      "phoneNumber": 972528930725,
+      "userId": 1
+    }
+  ],
+  "myPets": [
+    {
+        "image": "./images/DogBG.jpg",
+        "name": "Ruffus",
+        "petStatus": "Adopted",
+        "type": "Dog",
+        "height": "50 CM",
+        "weight": "20 KG",
+        "color": "black",
+        "hypoallergenic": true,
+        "dietaryRestrictions": "none",
+        "breed": "Golden Retriever",
+        "ownerId": 1
+      },
+    {
+        "image": "../images/DogBG.jpg",
+        "name": "Skandal",
+        "petStatus": "Adopted",
+        "type": "Cat",
+        "height": "20 CM",
+        "weight": "10 KG",
+        "color": "pink",
+        "hypoallergenic": false,
+        "dietaryRestrictions": "none",
+        "breed": "Tiger",
+        "ownerId": null
+      },
+      {
+        "image": "../images/DogBG.jpg",
+        "name": "Rafi",
+        "petStatus": "Not Adopted",
+        "type": "Cat",
+        "height": "26 CM",
+        "weight": "19 KG",
+        "color": "blue",
+        "hypoallergenic": false,
+        "dietaryRestrictions": "No Beer",
+        "breed": "Lion",
+        "ownerId": 1
+      }
+]
+}

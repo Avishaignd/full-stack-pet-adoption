@@ -1,0 +1,152 @@
+.login-form{
+  max-width: 450px;
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+
+body{
+  background: url("./images/TMUNA.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#home-page-buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.links{
+  text-align: center;
+  font-size: x-large;
+}
+
+#home-page-buttons Button{
+  margin: 10px 10px
+}
+
+.modals{
+  display: block;
+  margin-top: 10%;
+  margin-left: 32%;
+  width: 450px;
+  height: 500px;
+  overflow: scroll;
+}
+
+li{
+  list-style-type: none;
+}
+
+#pet-card{
+  margin-top: 5px;
+  margin-left: 5px;
+  box-shadow: rgb(222, 184, 135, 0.6) 5px 5px 5px 5px;
+  background-color: rgb(232, 233, 232);
+}
+
+#log-out{
+  border-radius: 100%;
+  border: solid black 0.5px;
+  background-color: rgb(204, 36, 36);
+  position: fixed;
+  top: 60px;
+  left: 10px;
+  height: 50px;
+  width: 50px;
+  font-size: small;
+  box-shadow: black 2px 2px 5px 2px;
+}
+
+#carousel{
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  width: 380px;
+}
+
+h5{
+  position: fixed;
+  bottom: 260px;
+  right: 60px;
+  color: darkorchid;
+  box-shadow: rgb(222, 184, 135, 0.6) 5px 5px 5px 5px;
+  background-color: rgb(222, 184, 135, 0.6);
+}
+
+.carousel-image{
+  border-radius: 10px;
+}
+
+#must-be-logged-in{
+  margin-top: 200px;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Halant', serif;
+}
+
+#user-card{
+  margin-top: 5px;
+  box-shadow: rgb(222, 184, 135, 0.6) 5px 5px 5px 5px;
+}
+
+.card-list{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#nav{
+  width: 100%;
+  height: 35px;
+}
+
+#single-pet-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+h2{
+  margin-top: 10%;
+  color: black;
+  text-align: center;
+  background-color: rgb(222, 184, 135, 0.5);
+  box-shadow:  rgb(222, 184, 135, 0.5) 10px 10px 20px 30px;
+  font-family: 'Halant', serif;
+  font-size: 3rem;
+}
+
+#user-form{
+  margin-top: 60px;
+  border-radius: 10px;
+  color: white;
+  max-width: 450px;
+}
+
+#my-pet-cards{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#pet-image{
+  align-self: center;
+  margin-top: 5px;
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.pet-card-buttons{
+  border-radius: 10px;
+  margin: 5px 5px;
+  background-color: rgb(129, 91, 233);
+  color: black;
+  border: none; 
+}
+
+#pet-profile{
+  background-color: rgb(243, 236, 229);
+}
